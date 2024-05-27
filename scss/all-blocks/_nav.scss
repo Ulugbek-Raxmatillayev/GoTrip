@@ -1,0 +1,27 @@
+
+.navbar{
+    max-width: 500px;
+    .nav_list{
+        width: 500px;
+        display: $d-flex;
+        justify-content: $space-around;
+
+        .list_item{
+            position: relative;
+            color: white;
+            font-family: sans-serif;
+            transition: .5s;
+            &:hover{
+                &::after{
+                    content: "";
+                    position: absolute;
+                    width: 2rem;
+                    height: .2rem;
+                    background: rgb(189, 189, 189);
+                    top: 100%;
+                    left: 0;
+                }
+            }
+        }
+    }
+}   

@@ -1,0 +1,14 @@
+.header {
+    max-width: $max-width;
+    background: linear-gradient(to right, #3c925d, #1C3A2E) ;
+    display: $d-flex;
+    justify-content: $space-between;
+    padding: 1rem;
+
+    .header_container{
+        width: $max-width;
+        display: $d-flex;
+        align-items: center;
+        gap: 120px;
+    }
+}

@@ -1,0 +1,29 @@
+.contact{
+    max-width: $max-width;
+    height: 50vh;
+    .contact_container {
+        .contact_title{
+            h2{
+                font-family: sans-serif;
+                text-align: center;
+                font-size: 55px;
+                padding-bottom: 2rem;
+            }
+        }
+
+        .contact_form{
+            max-width: $max-width;
+            display: flex;
+            justify-content: center;
+            input{
+                width: 500px;
+                height: 60px;
+                padding: 1rem;
+                border-radius: 10px;
+            }
+            button{
+                border-radius: 10px;
+            }
+        }
+    }
+}

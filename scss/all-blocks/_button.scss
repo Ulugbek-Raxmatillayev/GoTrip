@@ -1,0 +1,37 @@
+.default_btn{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+button{
+    padding: 1rem 3rem;
+}
+
+.colored_btn{
+    border: 1px solid red;
+    background: red;
+    color: white;
+    border-radius: 30px;
+}
+
+.hero_btn{
+    background: #d5ffdc94;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero_btn_colored{
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.services_btn_colored{
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
